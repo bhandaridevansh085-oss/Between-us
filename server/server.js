@@ -9,6 +9,7 @@ const server = http.createServer(app);
 const allowedOrigins = [
   "http://localhost:3100",
   "http://localhost:5173",
+  "https://between-us-pied.vercel.app",
 ];
 
 app.use(
